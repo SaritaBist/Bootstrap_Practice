@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>distributing unique column devide</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+       .mycontainer
+        {
+            border: 2px solid red;
+            height: 200px;
+        }
+        .myrow
+        {
+            border:2px solid green;
+        }
+        .mycol
+        {
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mycontainer">
+        <div class="row myrow">
+            <div class="col-2 mycol">col 1</div>
+            <div class="col-6 mycol">col 2</div>
+            <div class="col-4 mycol">col 3</div>
+        </div>
+        <div class="row myrow">
+            <!-- <div class="col mycol">col 1</div> -->
+            <div class="col-11 mycol">col 2</div>
+            
+        </div>
+    </div>
+</body>
+</html>
